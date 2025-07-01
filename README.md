@@ -100,7 +100,7 @@ Bot automatizado para WhatsApp desenvolvido como projeto prático para auxílio 
 
 ## 🛠️ Tecnologias Utilizadas
 
-- **Linguagens**: C, Python, Typescript, JavaScript, HTML, CSS
+- **Linguagens**: C/C++, Python, Typescript, Java, JavaScript, HTML, CSS
 - **Bancos de Dados**: MongoDB, MySQL, PostgreSQL
 - **Softwares**: VScode, Vim, Postman, Insomnia
 - **Frameworks e Ferramentas**: Docker, Fastify, Flask, React, TailwindCss, RabbitMQ
