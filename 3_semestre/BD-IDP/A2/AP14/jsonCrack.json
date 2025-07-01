@@ -1,0 +1,78 @@
+{
+  "clientes": [
+    {
+      "nome": "Ana Silva",
+      "cpf": "111.111.111-11",
+      "telefone": "(61)90000-0001",
+      "plano": "diária"
+    },
+    {
+      "nome": "Bruno Souza",
+      "cpf": "222.222.222-22",
+      "telefone": "(61)90000-0002",
+      "plano": "mensalista"
+    }
+  ],
+  "veiculos": [
+    {
+      "placa": "ABC-1001",
+      "tipo": "carro",
+      "cor": "branco",
+      "proprietario": {
+        "cpf": "111.111.111-11",
+        "nome": "Ana Silva"
+      }
+    },
+    {
+      "placa": "EF-2002",
+      "tipo": "moto",
+      "cor": "preto",
+      "proprietario": {
+        "cpf": "222.222.222-22",
+        "nome": "Bruno Souza"
+      }
+    }
+  ],
+  "estacionamentos": [
+    {
+      "nome": "Central Park",
+      "localizacao": "Águas Claras",
+      "capacidade": 50
+    },
+    {
+      "nome": "Setor Sul",
+      "localizacao": "Brasília",
+      "capacidade": 75
+    }
+  ],
+  "registros": [
+    {
+      "entrada": "2025-05-01T08:00:00Z",
+      "saida": "2025-05-01T12:00:00Z",
+      "vaga": 12,
+      "valor": 15.00,
+      "cliente": {
+        "cpf": "111.111.111-11",
+        "nome": "Ana Silva"
+      },
+      "estacionamento": {
+        "nome": "Central Park",
+        "localizacao": "Águas Claras"
+      }
+    },
+    {
+      "entrada": "2025-05-02T09:30:00Z",
+      "saida": "2025-05-02T11:00:00Z",
+      "vaga": 5,
+      "valor": 10.00,
+      "cliente": {
+        "cpf": "222.222.222-22",
+        "nome": "Bruno Souza"
+      },
+      "estacionamento": {
+        "nome": "Setor Sul",
+        "localizacao": "Brasília"
+      }
+    }
+  ]
+}

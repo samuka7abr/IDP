@@ -1,0 +1,67 @@
+    adiciona_aresta(grafo, 0, 2);   //Rio Branco -> Manaus
+    adiciona_aresta(grafo, 1, 2);   //Porto Velho -> Manaus
+    adiciona_aresta(grafo, 2, 0);   //Manaus -> Rio Branco
+    adiciona_aresta(grafo, 2, 1);   //Manaus -> Porto Velho
+    adiciona_aresta(grafo, 2, 3);   //Manaus -> Boa Vista
+    adiciona_aresta(grafo, 3, 2);   //Boa Vista -> Manaus
+    adiciona_aresta(grafo, 3, 4);   //Boa Vista -> Belém
+    adiciona_aresta(grafo, 4, 3);   //Belém -> Boa Vista
+    adiciona_aresta(grafo, 4, 5);   //Belém -> Macapá
+    adiciona_aresta(grafo, 4, 6);   //Belém -> Brasília
+    adiciona_aresta(grafo, 4, 7);   //Belém -> São Luís
+    adiciona_aresta(grafo, 5, 4);   //Macapá -> Belém
+    adiciona_aresta(grafo, 7, 4);   //São Luís -> Belém
+    adiciona_aresta(grafo, 7, 9);   //São Luís -> Fortaleza
+    adiciona_aresta(grafo, 7, 8);   //São Luís -> Teresina
+    adiciona_aresta(grafo, 7, 6);   //São Luís -> Palmas
+    adiciona_aresta(grafo, 9, 7);   //Fortaleza -> São Luís
+    adiciona_aresta(grafo, 9, 10);  //Fortaleza -> Natal
+    adiciona_aresta(grafo, 9, 6);   //Fortaleza -> Brasília
+    adiciona_aresta(grafo, 10, 9);  //Natal -> Fortaleza
+    adiciona_aresta(grafo, 10, 11); //Natal -> João Pessoa
+    adiciona_aresta(grafo, 11, 10); //João Pessoa -> Natal
+    adiciona_aresta(grafo, 11, 12); //João Pessoa -> Recife
+    adiciona_aresta(grafo, 12, 11); //Recife -> João Pessoa
+    adiciona_aresta(grafo, 12, 13); //Recife -> Maceió
+    adiciona_aresta(grafo, 13, 12); //Maceió -> Recife
+    adiciona_aresta(grafo, 13, 14); //Maceió -> Aracaju
+    adiciona_aresta(grafo, 14, 13); //Aracaju -> Maceió
+    adiciona_aresta(grafo, 14, 15); //Aracaju -> Salvador
+    adiciona_aresta(grafo, 15, 14); //Salvador -> Aracaju
+    adiciona_aresta(grafo, 15, 6);  //Salvador -> Brasília
+    adiciona_aresta(grafo, 8, 7);   //Teresina -> São Luís
+    adiciona_aresta(grafo, 8, 6);   //Teresina -> Palmas
+    adiciona_aresta(grafo, 6, 4);   //Palmas -> Belém
+    adiciona_aresta(grafo, 6, 7);   //Palmas -> São Luís
+    adiciona_aresta(grafo, 6, 8);   //Palmas -> Teresina
+    adiciona_aresta(grafo, 6, 9);   //Palmas -> Brasília
+    adiciona_aresta(grafo, 6, 15);  //Palmas -> Salvador
+    adiciona_aresta(grafo, 6, 16);  //Palmas -> Belo Horizonte
+    adiciona_aresta(grafo, 16, 6);  //Brasília -> Palmas
+    adiciona_aresta(grafo, 16, 17); //Brasília -> Goiânia
+    adiciona_aresta(grafo, 16, 18); //Brasília -> Cuiabá
+    adiciona_aresta(grafo, 16, 20); //Brasília -> Belo Horizonte
+    adiciona_aresta(grafo, 16, 23); //Brasília -> São Paulo
+    adiciona_aresta(grafo, 17, 16); //Goiânia -> Brasília
+    adiciona_aresta(grafo, 17, 19); //Goiânia -> Campo Grande
+    adiciona_aresta(grafo, 19, 17); //Campo Grande -> Goiânia
+    adiciona_aresta(grafo, 19, 18); //Campo Grande -> Cuiabá
+    adiciona_aresta(grafo, 19, 23); //Campo Grande -> São Paulo
+    adiciona_aresta(grafo, 18, 19); //Cuiabá -> Campo Grande
+    adiciona_aresta(grafo, 18, 16); //Cuiabá -> Brasília
+    adiciona_aresta(grafo, 20, 16); //Belo Horizonte -> Brasília
+    adiciona_aresta(grafo, 20, 21); //Belo Horizonte -> Vitória
+    adiciona_aresta(grafo, 20, 22); //Belo Horizonte -> Rio de Janeiro
+    adiciona_aresta(grafo, 20, 23); //Belo Horizonte -> São Paulo
+    adiciona_aresta(grafo, 21, 20); //Vitória -> Belo Horizonte
+    adiciona_aresta(grafo, 22, 20); //Rio de Janeiro -> Belo Horizonte
+    adiciona_aresta(grafo, 22, 23); //Rio de Janeiro -> São Paulo
+    adiciona_aresta(grafo, 23, 16); //São Paulo -> Brasília
+    adiciona_aresta(grafo, 23, 20); //São Paulo -> Belo Horizonte
+    adiciona_aresta(grafo, 23, 19); //São Paulo -> Campo Grande
+    adiciona_aresta(grafo, 23, 24); //São Paulo -> Curitiba
+    adiciona_aresta(grafo, 24, 23); //Curitiba -> São Paulo
+    adiciona_aresta(grafo, 24, 25); //Curitiba -> Florianópolis
+    adiciona_aresta(grafo, 25, 24); //Florianópolis -> Curitiba
+    adiciona_aresta(grafo, 25, 26); //Florianópolis -> Porto Alegre
+    adiciona_aresta(grafo, 26, 25); //Porto Alegre -> Florianópolis

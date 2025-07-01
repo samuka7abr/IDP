@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, sans-serif;
+    width: 300px;
+    padding: 10px;
+    background-color: lightgrey;
+}
+
+h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    
+}
+button{
+    background-color: blue;
+    color: white;
+    border-radius: 999px;
+    border-style: none;
+    transition: background-color 0.3s ease;
+    font-weight: bold;
+    
+}
+button:hover{
+    background-color: purple;
+    font-weight: 950;
+}

@@ -1,0 +1,117 @@
+body{
+    
+        background-color: #212554;
+}
+
+
+
+
+#pagina/*header*/{
+        width: 1005px;
+        height: 23px;
+        display: flex;
+        margin-top: 45px;
+        margin-right: 138px;
+        margin-bottom: 55px;
+        margin-left:137px;
+        
+        justify-content: space-between;
+        align-items: center;
+}
+ul/*mexe nas propriedades da lista*/{
+        display:flex;
+        gap:100px;
+        list-style: none;
+}
+ul a /*mexe nas palavras da lista*/{
+        text-decoration: none;
+        color: white;
+        font-size: 15px;
+        font-family:"Arvo", serif;
+        
+}  
+ul a:hover{
+    font-weight: bold;
+} 
+#smart/*mexe na logo da header*/{
+        font-size:18px ;
+        color: white;
+        font-family:"Arvo", serif ;
+        letter-spacing: 7px;
+}
+main{
+        display: flex;
+        width: 1008px;
+        height: 404px;
+        
+        margin-right: 138px;
+        margin-left:137px;
+        justify-content: space-between;
+}
+#text h1{
+        font-size:49px;
+        font-weight: 400;
+        line-height: 50px;
+        
+        font-family:"Arvo", serif ;
+        font-weight:normal; 
+        color: white;
+
+} 
+#text p{
+        line-height: 27px;
+        
+        font-family: "Open Sans", sans-serif;
+        color:white;
+}  
+strong{
+        color:#00CDEB;
+}
+span{
+        color:#0F8632;
+}
+button{
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        background-color:#0F8632;
+        border:solid #212454;
+        border-radius:6px;
+        padding-top: 16px;;
+        padding-left: 34px;
+        padding-bottom: 16px;
+        padding-right: 34px;
+        color: white;
+        font-size:16px ;
+        cursor: pointer;
+}
+button:hover{
+        font-weight:bold ;
+        background-color: #0b6b28;
+}
+button a{
+    color:white;
+}
+footer{
+        height: 23px;
+        width: 403px;
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top:40px;
+        margin-left: 438px;
+        margin-bottom: 33px;
+        margin-right: 439px;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+    font-family: "Open Sans", sans-serif;
+}
+
+
+#comece{
+        text-decoration: none;
+}
+

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Direct Messenger</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.0.1/socket.io.js"></script>
+</head>
+<body>
+  <header>Direct Messenger</header>
+
+  <!-- LOGIN -->
+  <div id="login-screen">
+    <div class="login-form">
+      <h2>Login</h2>
+      <input id="login-username" placeholder="Username">
+      <button id="login-btn">Entrar</button>
+      <p id="login-error" class="error hidden"></p>
+    </div>
+  </div>
+
+  <!-- APP -->
+  <div id="app-screen" class="hidden">
+    <aside id="inbox">
+      <div class="user-info">
+        <span id="current-user"></span>
+        <button id="logout-btn">Sair</button>
+      </div>
+      <div class="search">
+        <input id="search-input" placeholder="Buscar usuário...">
+        <button id="search-btn">🔍</button>
+      </div>
+      <div id="search-result" class="hidden">
+        <img src="{{ url_for('static', filename='assets/idp.png') }}" class="avatar">
+        <span id="search-name"></span>
+        <button id="add-btn">Adicionar</button>
+      </div>
+      <div id="contacts"></div>
+    </aside>
+
+    <main id="chat">
+      <div id="chat-header"></div>
+      <div id="messages"></div>
+      <div id="composer">
+        <input id="message-input" placeholder="Digite sua mensagem">
+        <button id="send-btn">Enviar</button>
+      </div>
+    </main>
+  </div>
+
+  <script src="{{ url_for('static', filename='js/app.js') }}"></script>
+</body>
+</html>

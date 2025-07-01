@@ -1,0 +1,48 @@
+{
+  "usuarios": {
+    "_id": "ObjectId",
+    "nome": "string",
+    "email": "string",
+    "senha": "string",
+    "curso": "string",
+    "foto_perfil": "string (URL)",
+    "bio": "string",
+    "seguindo": ["ObjectId"],  
+    "seguidores": ["ObjectId"]
+  },
+  "postagens": {
+    "_id": "ObjectId",
+    "autor_id": "ObjectId",
+    "conteudo_texto": "string",
+    "mídia": [
+      {
+        "tipo": "foto|vídeo",
+        "url": "string"
+      }
+    ],
+    "curtidas": ["ObjectId"],
+    "comentarios": [
+      {
+        "autor_id": "ObjectId",
+        "texto": "string",
+        "data": "datetime"
+      }
+    ],
+    "data_criacao": "datetime"
+  },
+  "grupos_estudo": {
+    "_id": "ObjectId",
+    "nome": "string",
+    "descricao": "string",
+    "membros": ["ObjectId"],
+    "postagens": ["ObjectId"]
+  },
+  "notificacoes": {
+    "_id": "ObjectId",
+    "usuario_id": "ObjectId",
+    "tipo": "string (ex: nova_curtida, novo_comentario)",
+    "mensagem": "string",
+    "lida": "boolean",
+    "data": "datetime"
+  }
+}

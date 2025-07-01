@@ -1,0 +1,259 @@
+{
+  "_type": "export",
+  "__export_format": 4,
+  "__export_date": "2025-06-26T23:56:44.855Z",
+  "__export_source": "insomnia.desktop.app:v10.3.0",
+  "resources": [
+    {
+      "_id": "req_9d6b8be1d6a049a2bc931eebf211d023",
+      "parentId": "fld_1596be9ef8f940ebb1ed90cde5a3bc46",
+      "modified": 1750958080278,
+      "created": 1750954811647,
+      "url": "http://localhost:5000/messages",
+      "name": "New Request",
+      "description": "",
+      "method": "POST",
+      "body": {
+        "mimeType": "application/json",
+        "text": "{\n  \"chat_id\": \"teste_mafe\",\n  \"sender\": \"Samuka7abr\",\n  \"receiver\": \"mfpmfaria\",\n  \"text\": \"Olá, tudo bem?\"\n}\n\t"
+      },
+      "parameters": [],
+      "headers": [
+        {
+          "name": "Content-Type",
+          "value": "application/json"
+        },
+        {
+          "name": "User-Agent",
+          "value": "insomnia/10.3.0"
+        }
+      ],
+      "authentication": {},
+      "metaSortKey": -1750954813597,
+      "isPrivate": false,
+      "pathParameters": [],
+      "settingStoreCookies": true,
+      "settingSendCookies": true,
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingRebuildPath": true,
+      "settingFollowRedirects": "global",
+      "_type": "request"
+    },
+    {
+      "_id": "fld_1596be9ef8f940ebb1ed90cde5a3bc46",
+      "parentId": "wrk_2958f816d215482db7e290d908be53de",
+      "modified": 1750954808458,
+      "created": 1750954808458,
+      "name": "Messages",
+      "description": "",
+      "environment": {},
+      "environmentPropertyOrder": null,
+      "metaSortKey": -1750954808458,
+      "environmentType": "kv",
+      "_type": "request_group"
+    },
+    {
+      "_id": "wrk_2958f816d215482db7e290d908be53de",
+      "parentId": null,
+      "modified": 1750940924148,
+      "created": 1750940924148,
+      "name": "DB-SocialMedia-Proj",
+      "description": "",
+      "scope": "collection",
+      "_type": "workspace"
+    },
+    {
+      "_id": "req_6a3c0d9afd5e478d9a7e51b4a725138c",
+      "parentId": "fld_1936c4f9d8e04a5b95f3a8632de4ede7",
+      "modified": 1750958060379,
+      "created": 1750944724213,
+      "url": "http://localhost:5000/contacts/Samuka7abr",
+      "name": "AddContact",
+      "description": "",
+      "method": "POST",
+      "body": {
+        "mimeType": "application/json",
+        "text": "{\n  \"contact_username\": \"mfpmfaria\"\n}\n"
+      },
+      "parameters": [],
+      "headers": [
+        {
+          "name": "Content-Type",
+          "value": "application/json"
+        },
+        {
+          "name": "User-Agent",
+          "value": "insomnia/10.3.0"
+        }
+      ],
+      "authentication": {},
+      "metaSortKey": -1750944771076,
+      "isPrivate": false,
+      "pathParameters": [],
+      "settingStoreCookies": true,
+      "settingSendCookies": true,
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingRebuildPath": true,
+      "settingFollowRedirects": "global",
+      "_type": "request"
+    },
+    {
+      "_id": "fld_1936c4f9d8e04a5b95f3a8632de4ede7",
+      "parentId": "wrk_2958f816d215482db7e290d908be53de",
+      "modified": 1750944721949,
+      "created": 1750944721949,
+      "name": "Contact",
+      "description": "",
+      "environment": {},
+      "environmentPropertyOrder": null,
+      "metaSortKey": -1750944721949,
+      "environmentType": "kv",
+      "_type": "request_group"
+    },
+    {
+      "_id": "req_68f741c1a8614b79b943d1c22ea0a4e4",
+      "parentId": "fld_3eff949f6ebb402f8bedb6546a1f8176",
+      "modified": 1750968371677,
+      "created": 1750968294395,
+      "url": "http://localhost:5000/users/mfpmfaria",
+      "name": "New Request",
+      "description": "",
+      "method": "GET",
+      "body": {},
+      "parameters": [],
+      "headers": [
+        {
+          "name": "User-Agent",
+          "value": "insomnia/10.3.0"
+        }
+      ],
+      "authentication": {},
+      "metaSortKey": -1750944715884,
+      "isPrivate": false,
+      "pathParameters": [],
+      "settingStoreCookies": true,
+      "settingSendCookies": true,
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingRebuildPath": true,
+      "settingFollowRedirects": "global",
+      "_type": "request"
+    },
+    {
+      "_id": "fld_3eff949f6ebb402f8bedb6546a1f8176",
+      "parentId": "wrk_2958f816d215482db7e290d908be53de",
+      "modified": 1750944639443,
+      "created": 1750944639443,
+      "name": "User",
+      "description": "",
+      "environment": {},
+      "environmentPropertyOrder": null,
+      "metaSortKey": -1750944639443,
+      "environmentType": "kv",
+      "_type": "request_group"
+    },
+    {
+      "_id": "req_3a9f140fb24a4847a980b703b4b2b493",
+      "parentId": "fld_3eff949f6ebb402f8bedb6546a1f8176",
+      "modified": 1750981344694,
+      "created": 1750944642034,
+      "url": "http://localhost:5000/users",
+      "name": "CreateUser",
+      "description": "",
+      "method": "POST",
+      "body": {
+        "mimeType": "application/json",
+        "text": "{\n  \"username\": \"user1\",\n  \"name\": \"usuario 01\"\n}\n"
+      },
+      "parameters": [],
+      "headers": [
+        {
+          "name": "Content-Type",
+          "value": "application/json"
+        },
+        {
+          "name": "User-Agent",
+          "value": "insomnia/10.3.0"
+        }
+      ],
+      "authentication": {},
+      "metaSortKey": -1750944715784,
+      "isPrivate": false,
+      "pathParameters": [],
+      "settingStoreCookies": true,
+      "settingSendCookies": true,
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingRebuildPath": true,
+      "settingFollowRedirects": "global",
+      "_type": "request"
+    },
+    {
+      "_id": "req_f0cba109787f416dae88cead3440c0f7",
+      "parentId": "fld_d855d56bfdf34077a77a6098b3f148ac",
+      "modified": 1750944791742,
+      "created": 1750944094575,
+      "url": "http://localhost:5000/",
+      "name": "Mongo Conn Route",
+      "description": "",
+      "method": "GET",
+      "body": {},
+      "parameters": [],
+      "headers": [
+        {
+          "name": "User-Agent",
+          "value": "insomnia/10.3.0"
+        }
+      ],
+      "authentication": {},
+      "metaSortKey": -1750944633990,
+      "isPrivate": false,
+      "pathParameters": [],
+      "settingStoreCookies": true,
+      "settingSendCookies": true,
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingRebuildPath": true,
+      "settingFollowRedirects": "global",
+      "_type": "request"
+    },
+    {
+      "_id": "fld_d855d56bfdf34077a77a6098b3f148ac",
+      "parentId": "wrk_2958f816d215482db7e290d908be53de",
+      "modified": 1750944625654,
+      "created": 1750944625654,
+      "name": "Database",
+      "description": "",
+      "environment": {},
+      "environmentPropertyOrder": null,
+      "metaSortKey": -1750944625654,
+      "environmentType": "kv",
+      "_type": "request_group"
+    },
+    {
+      "_id": "env_e39cad2e4aa153f9fdea5a3ba2bb2d093b00eafd",
+      "parentId": "wrk_2958f816d215482db7e290d908be53de",
+      "modified": 1750940924150,
+      "created": 1750940924150,
+      "name": "Base Environment",
+      "data": {},
+      "dataPropertyOrder": null,
+      "color": null,
+      "isPrivate": false,
+      "metaSortKey": 1750940924150,
+      "environmentType": "kv",
+      "_type": "environment"
+    },
+    {
+      "_id": "jar_e39cad2e4aa153f9fdea5a3ba2bb2d093b00eafd",
+      "parentId": "wrk_2958f816d215482db7e290d908be53de",
+      "modified": 1750940924151,
+      "created": 1750940924151,
+      "name": "Default Jar",
+      "cookies": [],
+      "_type": "cookie_jar"
+    }
+  ]
+}

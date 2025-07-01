@@ -1,0 +1,135 @@
+/* Estilos do Pop-up principal */
+.pop-up-container {
+    position: fixed;
+    top: 5%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    max-width: 800px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    z-index: 1000;
+    overflow: hidden;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Estilo da imagem no pop-up */
+  .pop-up-container img {
+    width: 100%;
+    height: auto;
+    border-bottom: 2px solid #ccc;
+  }
+  
+  /* Estilo do vídeo no pop-up */
+  .pop-up-container iframe {
+    width: 100%;
+    height: 300px;
+    margin-top: 10px;
+    border: none;
+  }
+  
+  /* Estilos para a seção de botões */
+  .pop-up-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    padding: 16px;
+    background-color: #f7f7f7;
+    border-top: 1px solid #ddd;
+  }
+  
+  /* Estilos para os botões */
+  .pop-up-buttons button {
+    padding: 12px 24px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  /* Botão "Saiba Mais" */
+  .pop-up-buttons button.primary {
+    background-color: #007bff;
+    color: white;
+    border: none;
+  }
+  
+  .pop-up-buttons button.primary:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Botão "Fechar" */
+  .pop-up-buttons button.secondary {
+    background-color: #ccc;
+    color: white;
+    border: none;
+  }
+  
+  .pop-up-buttons button.secondary:hover {
+    background-color: #999;
+  }
+  
+  /* Animação de entrada do Pop-up */
+  @keyframes slideIn {
+    from {
+      transform: translate(-50%, -100%);
+    }
+    to {
+      transform: translate(-50%, -50%);
+    }
+  }
+  
+  .pop-up-enter {
+    animation: slideIn 0.5s ease-out forwards;
+  }
+  
+  /* Estilos do modal de informações */
+  .dialog-container {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .dialog-container h6 {
+    margin-bottom: 20px;
+  }
+  
+  .dialog-container p {
+    white-space: pre-line;
+    line-height: 1.5;
+  }
+  
+  .dialog-container .dialog-buttons {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .dialog-container .dialog-buttons button {
+    padding: 12px 24px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .dialog-container .dialog-buttons button.secondary {
+    background-color: #f44336;
+    color: white;
+    border: none;
+  }
+  
+  .dialog-container .dialog-buttons button.secondary:hover {
+    background-color: #d32f2f;
+  }
+  
+  /* Camada de fundo para ofuscar a página */
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.9); /* Cor de fundo com opacidade */
+    z-index: 999; /* Fica atrás do pop-up */
+  }
+  

@@ -1,0 +1,66 @@
+.news-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Cards se adaptam ao espaço */
+    gap: 20px; /* Espaçamento reduzido entre os cards */
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  
+  .news-grid h1 {
+    text-align: center;
+    color: green;
+    margin-bottom: 30px; /* Separação maior do título */
+  }
+  
+  .news-card {
+    background: #f8f9fa; /* Cor de fundo do card */
+    border: 1px solid #ddd; /* Borda leve */
+    border-radius: 8px; /* Cantos arredondados */
+    overflow: hidden;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .news-card img {
+    width: 100%;
+    height: auto; /* Mantém a proporção da imagem */
+    aspect-ratio: 1; /* Torna o card quadrado */
+    object-fit: cover; /* Garante o preenchimento */
+  }
+  
+  .news-card h2 {
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 10px 0;
+  }
+  
+  .news-card p {
+    font-size: 0.9rem;
+    color: #666;
+    padding: 0 10px 10px;
+  }
+  
+  @media (max-width: 1200px) {
+    .news-grid {
+      grid-template-columns: repeat(3, 1fr); /* 3 colunas em telas médias */
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .news-grid {
+      grid-template-columns: repeat(2, 1fr); /* 2 colunas em telas pequenas */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .news-grid {
+      grid-template-columns: 1fr; /* 1 coluna em telas muito pequenas */
+    }
+  }
+  

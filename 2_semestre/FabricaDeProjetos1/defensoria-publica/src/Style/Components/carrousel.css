@@ -1,0 +1,41 @@
+.carousel-buttons button {
+  font-size: 16px;
+  cursor: pointer;
+  padding: 12px 24px; /* Botões com maior área clicável */
+  border-radius: 8px; /* Bordas arredondadas para um visual mais suave */
+  font-weight: 600; /* Tornar o texto mais destacado */
+  transition: background-color 0.3s ease, transform 0.2s ease-in-out; /* Suavizar transições */
+  border: 2px solid transparent; /* Remover borda visível */
+  background-color: #4CAF50; /* Cor de fundo vibrante */
+  color: white; /* Texto branco */
+  text-transform: uppercase; /* Transformar o texto em maiúsculo */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+.carousel-buttons button:hover {
+  background-color: #45a049; /* Cor mais escura ao passar o mouse */
+  transform: translateY(-3px); /* Levantar o botão um pouco */
+}
+
+.carousel-buttons button:active {
+  background-color: #388e3c; /* Cor de clique mais escura */
+  transform: translateY(0); /* Reverter o efeito de hover quando clicado */
+}
+
+.carousel-buttons button:focus {
+  outline: none;
+  border-color: #388e3c; /* Borda sutil quando o botão estiver em foco */
+}
+
+.carousel-buttons button.secondary {
+  background-color: #FF9800; /* Cor alternativa para o segundo botão */
+  border-color: #FF9800; /* Borda da mesma cor */
+}
+
+.carousel-buttons button.secondary:hover {
+  background-color: #f57c00; /* Cor mais escura ao passar o mouse no segundo botão */
+}
+
+.carousel-buttons button.secondary:active {
+  background-color: #e65100; /* Cor de clique mais escura no segundo botão */
+}

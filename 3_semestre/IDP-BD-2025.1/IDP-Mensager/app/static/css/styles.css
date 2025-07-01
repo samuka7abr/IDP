@@ -1,0 +1,233 @@
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{height:100%;font-family:sans-serif}
+header{background:#0F2D45;color:#fff;padding:15px;text-align:center;font-size:1.5rem}
+.hidden{display:none !important}
+.error{color:#dc3545;font-size:0.9rem;margin-top:10px}
+
+/* LOGIN */
+#login-screen{
+    position: fixed;
+    top: 52px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f8f9fa;
+    z-index: 1000;
+}
+.login-form{
+    background: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    display: flex;
+    flex-direction: column;
+    min-width: 300px;
+}
+.login-form h2{
+    margin-bottom: 20px;
+    text-align: center;
+    color: #0F2D45;
+}
+.login-form input{
+    margin-bottom: 15px;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+}
+.login-form button{
+    padding: 12px;
+    border: none;
+    background: #0F2D45;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+}
+.login-form button:hover{
+    background: #1a3d5a;
+}
+
+/* APP */
+#app-screen{
+    position: fixed;
+    top: 52px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    background: #fff;
+}
+#inbox{
+    width: 300px;
+    border-right: 1px solid #eee;
+    display: flex;
+    flex-direction: column;
+    background: #f8f9fa;
+}
+
+.user-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    border-bottom: 1px solid #eee;
+    background: #fff;
+}
+.user-info span{
+    font-weight: bold;
+    color: #0F2D45;
+}
+#logout-btn{
+    padding: 6px 12px;
+    border: none;
+    background: #dc3545;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 12px;
+}
+#logout-btn:hover{
+    background: #c82333;
+}
+
+#inbox .search{
+    display: flex;
+    padding: 15px;
+    border-bottom: 1px solid #eee;
+    background: #fff;
+}
+#inbox .search input{
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-right: 8px;
+    font-size: 14px;
+}
+#inbox .search button{
+    padding: 10px 12px;
+    border: none;
+    background: #0F2D45;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#search-result{
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    border-bottom: 1px solid #eee;
+    background: #fff;
+}
+#search-result .avatar{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 12px;
+}
+#search-result span{
+    flex: 1;
+    font-weight: 500;
+}
+#search-result button{
+    padding: 8px 12px;
+    border: none;
+    background: #28a745;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 12px;
+}
+#search-result button:hover{
+    background: #218838;
+}
+
+#contacts{
+    overflow-y: auto;
+    flex: 1;
+}
+#contacts .contact{
+    padding: 15px;
+    cursor: pointer;
+    border-bottom: 1px solid #f0f0f0;
+    transition: background 0.2s;
+}
+#contacts .contact:hover{
+    background: #e9ecef;
+}
+#contacts .contact.active{
+    background: #0F2D45;
+    color: #fff;
+}
+
+#chat{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+#chat-header{
+    background: #0F2D45;
+    color: #fff;
+    padding: 15px;
+    font-weight: bold;
+    font-size: 16px;
+}
+#messages{
+    flex: 1;
+    overflow-y: auto;
+    padding: 15px;
+    background: #f8f9fa;
+}
+#messages .msg{
+    margin-bottom: 12px;
+    padding: 10px;
+    border-radius: 8px;
+    max-width: 70%;
+}
+#messages .msg.sent{
+    background: #007bff;
+    color: #fff;
+    margin-left: auto;
+}
+#messages .msg.received{
+    background: #e9ecef;
+    color: #333;
+}
+#messages .msg .time{
+    font-size: 11px;
+    opacity: 0.7;
+    margin-top: 4px;
+}
+
+#composer{
+    display: flex;
+    border-top: 1px solid #eee;
+    padding: 15px;
+    background: #fff;
+}
+#composer input{
+    flex: 1;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-right: 10px;
+    font-size: 14px;
+}
+#composer button{
+    padding: 12px 20px;
+    border: none;
+    background: #0F2D45;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+#composer button:hover{
+    background: #1a3d5a;
+}
