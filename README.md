@@ -13,7 +13,7 @@ Implementações completas de estruturas de dados fundamentais em C, incluindo l
 Estudo aprofundado de algoritmos e técnicas de programação, com scripts automatizados para desenvolvimento e avaliação.
 
 ### [🗄️ IDP-BD-2025.1 - Banco de Dados](./3_semestre/IDP-BD-2025.1/)
-Sistema de mensageria da rede social IDP-Connections com arquitetura moderna usando Docker, MongoDB e RabbitMQ.
+Sistema de mensageria da rede social IDP-Connections com arquitetura moderna usando Flask, Docker, MongoDB e RabbitMQ.
 
 ---
 
