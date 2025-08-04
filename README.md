@@ -6,36 +6,30 @@ Este é um monorepo que contém todos os projetos e atividades desenvolvidos dur
 
 ## ⭐ Repositórios em Destaque
 
-### [🧩 Estrutura de Dados - IDP](./2_semestre/Estrutura-de-Dados-IDP/)
+### [🧩 IDP-EDA-2024.2](./2_semestre/IDP-EDA-2024.2/)
 Implementações completas de estruturas de dados fundamentais em C, incluindo listas, filas, pilhas, árvores e grafos.
 
-### [🧠 TPAA - Técnicas de Programação e Análise de Algoritmos](./3_semestre/TPAA-IDP/)
+### [🧠 IDP-TPAA-2025.1](./3_semestre/IDP-TPAA-2025.1/)
 Estudo aprofundado de algoritmos e técnicas de programação, com scripts automatizados para desenvolvimento e avaliação.
 
-### [🗄️ IDP-BD-2025.1 - Banco de Dados](./3_semestre/IDP-BD-2025.1/)
-Sistema de mensageria da rede social IDP-Connections com arquitetura moderna usando Flask, Docker, MongoDB e RabbitMQ.
+### [🗄️ IDP-BD-2025.1](./3_semestre/IDP-BD-2025.1/)
+Sistema de mensageria da rede social IDP-Connections com arquitetura moderna usando Docker, MongoDB e RabbitMQ.
 
 ---
 
 ## 📚 1º Semestre
 
-### [🐍 Jogo da Cobrinha em C](./1_semestre/Jogo-da-cobrinha-c-/)
+### [🐍 IDP-Algoritmos-2024.1](./1_semestre/IDP-Algoritmos-2024.1/)
 Implementação clássica do jogo Snake desenvolvido em linguagem C, focando em conceitos básicos de programação e estruturas de controle.
-
-### [🧮 Calculadora Básica](./1_semestre/calculadora-basica/)
-Projeto introdutório de calculadora simples para praticar operações matemáticas e lógica de programação.
 
 ### [💼 SmartBiz](./1_semestre/Smartbiz/)
 Landing page de statup fictícia desenvolvida para treinamento de pitch.
-
-### [🎯 Jogo Adivinha em C](./1_semestre/jogo-advinha-o-C/)
-Jogo de adivinhação implementado em C para praticar conceitos de estruturas condicionais e loops.
 
 ---
 
 ## 📚 2º Semestre
 
-### [🧩 Estrutura de Dados - IDP](./2_semestre/Estrutura-de-Dados-IDP/) ⭐ **DESTAQUE**
+### [🧩 IDP-EDA-2024.2](./2_semestre/IDP-EDA-2024.2/) ⭐ **DESTAQUE**
 Implementações completas de estruturas de dados fundamentais em C, incluindo:
 - **Listas**: Encadeadas e Duplamente Encadeadas
 - **Filas**: Simples e com Prioridade  
@@ -45,23 +39,20 @@ Implementações completas de estruturas de dados fundamentais em C, incluindo:
 
 *Tecnologias: C, Python*
 
-### [🏭 Fábrica de Projetos 1](./2_semestre/FabricaDeProjetos1/)
+### [🏭 IDP-FP1-2024.2](./2_semestre/IDP-FP1-2024.2/)
 Projeto colaborativo focado em metodologias ágeis e desenvolvimento de software em equipe, desenvolvendo o novo front-end do site da defensoria pública.
 
-### [📊 MPE-IDP](./2_semestre/MPE-IDP/)
+### [📊 IDP-MPE-2024.2](./2_semestre/IDP-MPE-2024.2/)
 Atividades práticas de Modelagem e Programação estatística.
 
-### [🧮 Calculadora de Média Aparada](./2_semestre/calculadora-de-media-aparada/)
-Ferramenta estatística para cálculo de médias aparadas, aplicando conceitos matemáticos vistos em sala (MPE-IDP).
-
-### [🛡️ Block Bet Extension](./2_semestre/Block-Bet_Extension/)
+### [🛡️ IDP-HUB-BBE-2024.2](./2_semestre/IDP-HUB-BBE-2024.2/)
 Extensão de navegador para bloqueio de sites de apostas, focando em responsabilidade digital. (Hub de inovação)
 
 ---
 
 ## 📚 3º Semestre
 
-### [🧠 TPAA - Técnicas de Programação e Análise de Algoritmos](./3_semestre/TPAA-IDP/) ⭐ **DESTAQUE**
+### [🧠 IDP-TPAA-2025.1](./3_semestre/IDP-TPAA-2025.1/) ⭐ **DESTAQUE**
 Estudo aprofundado de algoritmos e técnicas de programação, abordando:
 - **Bitwise Operations**
 - **Busca Binária**
@@ -73,7 +64,7 @@ Estudo aprofundado de algoritmos e técnicas de programação, abordando:
 
 *Inclui scripts automatizados para desenvolvimento e avaliação*
 
-### [🗄️ IDP-BD-2025.1 - Banco de Dados](./3_semestre/IDP-BD-2025.1/) ⭐ **DESTAQUE**
+### [🗄️ IDP-BD-2025.1](./3_semestre/IDP-BD-2025.1/) ⭐ **DESTAQUE**
 Sistema de mensageria da rede social **IDP-Connections** desenvolvido com arquitetura moderna:
 - **Backend**: Python + Flask
 - **Banco de Dados**: MongoDB
@@ -84,17 +75,20 @@ Sistema de mensageria da rede social **IDP-Connections** desenvolvido com arquit
 
 *Projeto final de Banco de Dados com interface de chat em tempo real*
 
-### [🗃️ BD-IDP](./3_semestre/BD-IDP/)
+### [🗃️ IDP-BD-2025.1](./3_semestre/IDP_BD-2025.1/)
 Atividades e exercícios complementares da disciplina de Banco de Dados.
 
-### [🏆 Hackathon 2025.1](./3_semestre/Hackathon-2025.1/)
+### [🏆 IDP-Hackathon-2025.1](./3_semestre/IDP-Hackathon-2025.1/)
 Projeto desenvolvido durante o hackathon da faculdade, aplicando conhecimentos interdisciplinares.
 
-### [🎯 POO-IDP](./3_semestre/POO-IDP/)
+### [🎯 IDP-POO-2025.1](./3_semestre/IDP-POO-2025.1/)
 Implementações e exercícios da disciplina de Programação Orientada a Objetos.
 
-### [🤖 WhatsApp ChatBot](./3_semestre/Whatsapp-ChatBot/)
+### [🤖 IDP-EQ-TI-WBOT-2025.1](./3_semestre/IDP-EQ-TI-WBOT-2025.1/)
 Bot automatizado para WhatsApp desenvolvido como projeto prático para auxílio de colegas na matéria de equipamentos de TI.
+
+### [📚 IDP-EDA-Monitoria-2025.1](./3_semestre/IDP-EDA-Monitoria-2025.1/)
+Atividades de monitoria da disciplina de Estrutura de Dados.
 
 ---
 
