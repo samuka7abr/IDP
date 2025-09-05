@@ -9,7 +9,8 @@ Este é um monorepo que contém todos os projetos e atividades desenvolvidos dur
 ### [🧩 IDP-EDA-2024.2](./2_semestre/IDP-EDA-2024.2/)
 Implementações completas de estruturas de dados fundamentais em C, incluindo listas, filas, pilhas, árvores e grafos.
 
-### [🧠 IDP-TPAA-2025.1](./3_semestre/IDP-TPAA-2025.1/)
+### [🧠 IDP-TPAA-2025.1](./3_semestre/IDP-TPAA-Questões)
+(Apenas os pdfs das questões)
 Estudo aprofundado de algoritmos e técnicas de programação, com scripts automatizados para desenvolvimento e avaliação.
 
 ### [🗄️ IDP-BD-2025.1](./3_semestre/IDP-BD-2025.1/)
@@ -52,7 +53,7 @@ Extensão de navegador para bloqueio de sites de apostas, focando em responsabil
 
 ## 📚 3º Semestre
 
-### [🧠 IDP-TPAA-2025.1](./3_semestre/IDP-TPAA-2025.1/) ⭐ **DESTAQUE**
+### [🧠 IDP-TPAA-2025.1](./3_semestre/IDP-Questões) ⭐ **DESTAQUE**
 Estudo aprofundado de algoritmos e técnicas de programação, abordando:
 - **Bitwise Operations**
 - **Busca Binária**
