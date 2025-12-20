@@ -1,0 +1,28 @@
+version: '3.8'
+
+services:
+  db:
+    image: mysql:8.0
+    container_name: lab3-mysql
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: samuel
+      MYSQL_DATABASE: produtos_db
+    volumes:
+      - ./mysql/init.sql:/docker-entrypoint-initdb.d/init.sql
+      - db_data:/var/lib/mysql
+    ports:
+      - "3307:3306"
+  
+  web:
+    build: .
+    container_name: lab3-apache
+    ports:
+      - "8081:80"
+    volumes:
+      - ./apache:/var/www/html
+    depends_on:
+      - db
+
+volumes:
+  db_data:

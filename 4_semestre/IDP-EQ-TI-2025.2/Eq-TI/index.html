@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>ROBÔSENA</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#hero">Pular para o conteúdo</a>
+
+    <header class="site-header" role="banner">
+      <div class="container header-inner">
+        <a href="#hero" class="brand" aria-label="ROBÔSENA - Ir para o início">
+          <img src="assets/robosenna.png" alt="Logotipo ROBÔSENA" width="124" height="60" />
+        </a>
+
+        <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-label="Abrir menu" />
+        <label for="nav-toggle" class="nav-toggle-btn" aria-controls="site-nav" aria-expanded="false">
+          <span class="sr-only">Menu</span>
+          <!-- Lucide: menu -->
+          <svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M3 12h18M3 6h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+        </label>
+
+        <nav id="site-nav" class="site-nav" role="navigation" aria-label="Navegação principal">
+          <ul>
+            <li><a href="#hero"><span class="nav-icon" aria-hidden="true">🔗</span> Hero</a></li>
+            <li><a href="#quem-somos"><span class="nav-icon" aria-hidden="true">🔗</span> Quem Somos</a></li>
+            <li><a href="#missao"><span class="nav-icon" aria-hidden="true">🔗</span> Missão</a></li>
+            <li><a href="#montagem"><span class="nav-icon" aria-hidden="true">🎬</span> Montagem</a></li>
+            <li><a href="#precos"><span class="nav-icon" aria-hidden="true">🔗</span> Pacotes &amp; Preços</a></li>
+            <li><a href="#publico"><span class="nav-icon" aria-hidden="true">🔗</span> Público-Alvo</a></li>
+            <li><a href="#beneficios"><span class="nav-icon" aria-hidden="true">🔗</span> Benefícios</a></li>
+            <li><a href="#contato"><span class="nav-icon" aria-hidden="true">🔗</span> Contato</a></li>
+          </ul>
+        </nav>
+
+        <a class="btn cta" href="#contato">Fale Conosco</a>
+      </div>
+    </header>
+
+    <main id="main" tabindex="-1">
+      <!-- Hero -->
+      <section id="hero" class="section hero" aria-labelledby="hero-title">
+        <div class="container hero-grid">
+          <div class="hero-text">
+            <h1 id="hero-title">ROBÔSENA</h1>
+            <p class="hero-subtitle">
+              Com o coração voltado para<br />
+              a inovação e o futuro, a<br />
+              ROBÔSENA tem um foco claro:
+            </p>
+            <div class="hero-actions">
+              <a class="btn cta" href="#contato">Fale Conosco</a>
+              <a class="btn secondary" href="#precos">Pacotes &amp; Preços</a>
+            </div>
+          </div>
+          <figure class="hero-media">
+            <img src="assets/meninomexendoemrobo.png" alt="Alunos realizando atividades de robótica" width="960" height="640" />
+          </figure>
+        </div>
+      </section>
+
+      <!-- Quem Somos / Apresentação -->
+      <section id="quem-somos" class="section" aria-labelledby="quem-title">
+        <div class="container two-col">
+          <div>
+            <h2 id="quem-title">QUEM SOMOS?</h2>
+            <div class="brand-block">
+              <img src="assets/robosenna.png" alt="Logotipo ROBÔSENA" class="brand-logo" width="160" height="52" />
+              <h3 class="brand-title">ROBÔSENA</h3>
+              <p>
+                Com o coração voltado para<br />
+                a inovação e o futuro, a<br />
+                ROBÔSENA tem um foco claro:<br />
+                aproximar escolas e estudantes<br />
+                do universo da robótica.
+              </p>
+              <p>
+                Nossa essência está em<br />
+                oferecer uma jornada educacional<br />
+                introdutória e inspiradora,<br />
+                cuidadosamente estruturada<br />
+                através de seminários, palestras<br />
+                e oficinas práticas. queremos que<br />
+                cada aluno não apenas descubra os<br />
+                fundamentos da robótica , mas<br />
+                também visualize e compreenda<br />
+                como essa área vibrante está<br />
+                moldando ativamente o presente e<br />
+                o futuro do nosso mundo.
+              </p>
+            </div>
+          </div>
+          <figure class="media">
+            <img src="assets/robo.png" alt="Estudantes colaborando em projeto de robótica" width="960" height="640" />
+          </figure>
+        </div>
+      </section>
+
+      <!-- Missão -->
+      <section id="missao" class="section accent" aria-labelledby="missao-title">
+        <div class="container">
+          <h2 id="missao-title">MISSÃO</h2>
+          <p>
+            ROBÔSENA é uma iniciativa<br />
+            de Robótica Educacional<br />
+            focada em aproximar escolas<br />
+            e estudantes do universo<br />
+            tecnológico. Oferecemos uma<br />
+            jornada educacional<br />
+            introdutória, composta por<br />
+            seminários, palestras e<br />
+            oficinas práticas, que<br />
+            apresentam os fundamentos da<br />
+            robótica e demonstram como<br />
+            essa área impacta o presente<br />
+            e o futuro.
+          </p>
+        </div>
+      </section>
+
+      <!-- Como Montar a Placa -->
+      <section id="montagem" class="section video-section" aria-labelledby="montagem-title">
+        <div class="container">
+          <h2 id="montagem-title">Aprenda a Montar sua Placa de Circuito</h2>
+          <p class="section-subtitle">
+            Veja nossos alunos em ação! Neste vídeo, você acompanha<br />
+            o processo de montagem de uma placa de circuito impresso<br />
+            e descobre como é fácil e empolgante trabalhar com eletrônica.
+          </p>
+          <div class="video-container">
+            <video controls>
+              <source src="assets/WhatsApp Video 2025-11-06 at 13.21.01.mp4" type="video/mp4">
+              Seu navegador não suporta a reprodução de vídeo.
+            </video>
+          </div>
+          <div class="cta-container">
+            <a class="btn cta large" href="https://streamyard.com/isbwucxp2hsg" target="_blank" rel="noopener">
+              <svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                <path d="M9 18l6-6-6-6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+              Assista ao Tutorial Completo de Montagem
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Pacotes & Preços -->
+      <section id="precos" class="section" aria-labelledby="precos-title">
+        <div class="container">
+          <h2 id="precos-title">Pacotes &amp; Preços</h2>
+          <div class="table-wrapper" role="region" aria-label="Tabela de Pacotes e Preços" tabindex="0">
+            <table class="pricing-table">
+              <thead>
+                <tr>
+                  <th scope="col">Pacote</th>
+                  <th scope="col">Duração</th>
+                  <th scope="col">Descrição</th>
+                  <th scope="col" class="badge-col">Preço Público</th>
+                  <th scope="col" class="badge-col">Preço Privado</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">Essencial</th>
+                  <td>2h</td>
+                  <td>Seminário (introdução)</td>
+                  <td>R$300</td>
+                  <td>R$600</td>
+                </tr>
+                <tr>
+                  <th scope="row">Interativo</th>
+                  <td>4h</td>
+                  <td>Atividades e Oficina Prática</td>
+                  <td>R$500</td>
+                  <td>R$1.000</td>
+                </tr>
+                <tr>
+                  <th scope="row">Imersivo</th>
+                  <td>1 dia inteiro</td>
+                  <td>Atividades e Palestras</td>
+                  <td>R$800</td>
+                  <td>R$1.600</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      <!-- Público-Alvo -->
+      <section id="publico" class="section" aria-labelledby="publico-title">
+        <div class="container two-col">
+          <div>
+            <h2 id="publico-title">Nosso público alvo...</h2>
+            <p>
+              Escolas de ensino<br />
+              fundamental II e médio<br />
+              (públicas e privadas),<br />
+              visando estudantes entre<br />
+              10 e 17 anos.
+            </p>
+          </div>
+          <div class="seal">
+            <h3>
+              VELOCIDADE E<br />
+              INOVAÇÃO NA EDUCAÇÃO
+            </h3>
+          </div>
+        </div>
+      </section>
+
+      <!-- Benefícios -->
+      <section id="beneficios" class="section" aria-labelledby="beneficios-title">
+        <div class="container">
+          <div class="benefits-grid">
+            <div>
+              <h2 id="beneficios-title">Benefícios Educacionais</h2>
+              <ul class="benefits-list" role="list">
+                <li>
+                  <!-- Lucide: check-circle -->
+                  <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="none" stroke="currentColor" stroke-width="2"/><path d="M9 12l2 2 4-4" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+                  — Introduz os alunos ao mundo<br />
+                  da robótica e da tecnologia<br />
+                  de forma acessível e<br />
+                  envolvente.
+                </li>
+                <li>
+                  <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="none" stroke="currentColor" stroke-width="2"/><path d="M9 12l2 2 4-4" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+                  — Desperta o interesse por<br />
+                  carreiras STEM (Ciência,<br />
+                  Tecnologia, Engenharia e<br />
+                  Matemática) desde cedo.
+                </li>
+                <li>
+                  <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="none" stroke="currentColor" stroke-width="2"/><path d="M9 12l2 2 4-4" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+                  — Estimula o raciocínio lógico,<br />
+                  pensamento crítico e<br />
+                  criatividade, competências<br />
+                  essenciais para o futuro.
+                </li>
+                <li>
+                  <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="none" stroke="currentColor" stroke-width="2"/><path d="M9 12l2 2 4-4" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+                  — Promove o aprendizado prático<br />
+                  e ativo, tornando a teoria<br />
+                  mais interessante e<br />
+                  aplicável.
+                </li>
+              </ul>
+            </div>
+            <div>
+              <h2>Benefícios Institucionais</h2>
+              <ul class="benefits-list" role="list">
+                <li>
+                  <!-- Lucide: building-2 -->
+                  <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="2" fill="none" stroke="currentColor" stroke-width="2"/><path d="M7 7h2M7 11h2M7 15h2M11 7h2M11 11h2M11 15h2M15 7h2M15 11h2M15 15h2M3 19h18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+                  — Permite que a instituição<br />
+                  ofereça inovação sem altos<br />
+                  investimentos em kits ou<br />
+                  laboratórios
+                </li>
+                <li>
+                  <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2l3 7h7l-5.5 4 2 7L12 17l-6.5 3 2-7L2 9h7z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>
+                  — Valoriza o currículo escolar,<br />
+                  agregando uma experiência<br />
+                  moderna e alinhada com as<br />
+                  demandas atuais
+                </li>
+                <li>
+                  <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 12h18M12 3v18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+                  — Facilita a implementação da<br />
+                  robótica educacional,<br />
+                  funcionando como um primeiro<br />
+                  passo para projetos maiores
+                </li>
+                <li>
+                  <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 8a8 8 0 11-16 0 8 8 0 0116 0z" fill="none" stroke="currentColor" stroke-width="2"/><path d="M8 15s1.5-2 4-2 4 2 4 2" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+                  — Ajuda a engajar professores e<br />
+                  estudantes em torno de temas<br />
+                  tecnológicos e atuais.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contato -->
+      <section id="contato" class="section" aria-labelledby="contato-title">
+        <div class="container contact-grid">
+          <div>
+            <h2 id="contato-title">Contato</h2>
+            <ul class="contact-list" role="list">
+              <li>
+                <!-- Lucide: phone -->
+                <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014 2h3a2 2 0 012 1.72c.12.88.33 1.73.63 2.54a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.54-1.12a2 2 0 012.11-.45c.81.3 1.66.51 2.54.63A2 2 0 0122 16.92z" fill="none" stroke="currentColor" stroke-width="2"/></svg>
+                (61) 99999-9999
+              </li>
+              <li>
+                <!-- Lucide: mail -->
+                <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 4h16v16H4z" fill="none" stroke="currentColor" stroke-width="2"/><path d="M22 6l-10 7L2 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+                robosenna@gmail.com
+              </li>
+              <li>
+                <!-- Lucide: globe -->
+                <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="none" stroke="currentColor" stroke-width="2"/><path d="M2 12h20M12 2a15.3 15.3 0 010 20M12 2a15.3 15.3 0 000 20" fill="none" stroke="currentColor" stroke-width="2"/></svg>
+                <a href="https://robosenna.web.app/" target="_blank" rel="noopener">https://robosenna.web.app/</a>
+              </li>
+              <li>
+                <!-- Lucide: link-2 -->
+                <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M10 13a5 5 0 007.07 0l1.76-1.76a5 5 0 10-7.07-7.07L10 4" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><path d="M14 11a5 5 0 00-7.07 0L5.17 12.76a5 5 0 107.07 7.07L14 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+                <a href="https://robosenna.web.app" target="_blank" rel="noopener">robosenna.web.app</a>
+              </li>
+            </ul>
+
+            <form class="contact-form" action="#" method="post" novalidate>
+              <div class="form-row">
+                <label for="nome">Nome</label>
+                <input id="nome" name="nome" type="text" required />
+              </div>
+              <div class="form-row">
+                <label for="email">E-mail</label>
+                <input id="email" name="email" type="email" required />
+              </div>
+              <div class="form-row">
+                <label for="escola">Escola</label>
+                <input id="escola" name="escola" type="text" />
+              </div>
+              <div class="form-row">
+                <label for="mensagem">Mensagem</label>
+                <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+              </div>
+              <button class="btn cta" type="submit">
+                <!-- Lucide: send -->
+                <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M22 2L11 13" fill="none" stroke="currentColor" stroke-width="2"/><path d="M22 2l-7 20-4-9-9-4 20-7z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>
+                Enviar
+              </button>
+            </form>
+          </div>
+
+          <aside class="contact-card" aria-label="Informações e redes sociais">
+            <div class="card">
+              <h3>Links úteis</h3>
+              <ul>
+                <li><a href="#quem-somos">Quem Somos</a></li>
+                <li><a href="#missao">Missão</a></li>
+                <li><a href="#precos">Pacotes &amp; Preços</a></li>
+                <li><a href="#beneficios">Benefícios</a></li>
+              </ul>
+            </div>
+            <div class="card social">
+              <h3>Siga a ROBÔSENA</h3>
+              <div class="social-row">
+                <a class="social-btn" href="#" aria-label="Instagram">
+                  <!-- Lucide: instagram -->
+                  <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="12" r="3.5" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg>
+                </a>
+                <a class="social-btn" href="#" aria-label="Facebook">
+                  <!-- Lucide: facebook -->
+                  <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>
+                </a>
+                <a class="social-btn" href="#" aria-label="YouTube">
+                  <!-- Lucide: youtube -->
+                  <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M22.54 6.42a2.78 2.78 0 00-1.95-2C18.88 4 12 4 12 4s-6.88 0-8.59.42a2.78 2.78 0 00-1.95 2A29 29 0 001 12a29 29 0 00.46 5.58 2.78 2.78 0 001.95 2C5.12 20 12 20 12 20s6.88 0 8.59-.42a2.78 2.78 0 001.95-2A29 29 0 0023 12a29 29 0 00-.46-5.58z" fill="none" stroke="currentColor" stroke-width="2"/><path d="M10 15l5-3-5-3v6z" fill="currentColor"/></svg>
+                </a>
+              </div>
+            </div>
+          </aside>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer" role="contentinfo">
+      <div class="container footer-grid">
+        <div class="footer-brand">
+          <img src="assets/robosenna.png" alt="Logotipo ROBÔSENA" width="120" height="40" />
+          <p>© 2025 ROBÔSENA. Todos os direitos reservados.</p>
+        </div>
+        <nav aria-label="Links úteis">
+          <ul>
+            <li><a href="#precos">Pacotes &amp; Preços</a></li>
+            <li><a href="#publico">Público-Alvo</a></li>
+            <li><a href="#contato">Contato</a></li>
+          </ul>
+        </nav>
+        <div class="footer-social">
+          <a class="social-btn" href="#" aria-label="Instagram">
+            <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="12" r="3.5" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg>
+          </a>
+          <a class="social-btn" href="#" aria-label="Facebook">
+            <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>
+          </a>
+          <a class="social-btn" href="#" aria-label="YouTube">
+            <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M22.54 6.42a2.78 2.78 0 00-1.95-2C18.88 4 12 4 12 4s-6.88 0-8.59.42a2.78 2.78 0 00-1.95 2A29 29 0 001 12a29 29 0 00.46 5.58 2.78 2.78 0 001.95 2C5.12 20 12 20 12 20s6.88 0 8.59-.42a2.78 2.78 0 001.95-2A29 29 0 0023 12a29 29 0 00-.46-5.58z" fill="none" stroke="currentColor" stroke-width="2"/><path d="M10 15l5-3-5-3v6z" fill="currentColor"/></svg>
+          </a>
+        </div>
+      </div>
+    </footer>
+  </body>
+  <!-- (Conteúdo textual fornecido conforme documento base da ROBÔSENA.) -->
+  <!-- Navegação com rolagem suave, foco visível e alto contraste implementados em styles.css -->
+</html>
+
+

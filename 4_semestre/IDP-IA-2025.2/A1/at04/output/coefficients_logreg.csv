@@ -1,0 +1,9 @@
+feature,coefficient
+num__glucose,1.0758495679280102
+num__bmi,0.7055397297822286
+num__pregnancies,0.41868437392124025
+num__familyhistorydiabetes,0.3564201393532952
+num__age,0.2733969544137352
+num__bloodpressure,-0.10084479038526659
+num__skinthickness,0.07096097321874512
+num__insulin,0.019785499686267694
