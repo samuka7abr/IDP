@@ -93,14 +93,90 @@ Atividades de monitoria da disciplina de Estrutura de Dados.
 
 ---
 
+## 📚 4º Semestre
+
+### [👁️ Argos-Panoptes](./4_semestre/Argos-Panoptes/) ⭐ **DESTAQUE**
+Sistema de observabilidade e monitoramento inspirado na mitologia grega, capaz de monitorar serviços de rede, bancos de dados e aplicações em tempo real:
+- **Microserviços**: Arquitetura distribuída com agent, alert, api e web
+- **Monitoramento**: Detecção de anomalias, falhas e degradações
+- **Dashboards**: Visualização de métricas e alertas automáticos
+- **DevOps**: Visibilidade total da infraestrutura
+
+*Tecnologias: Go, TypeScript, React, Docker*
+
+### [🤖 Kadupul](./4_semestre/Kadupul/) ⭐ **DESTAQUE**
+Sistema completo de classificação de flores Iris utilizando arquitetura de microserviços com Machine Learning:
+- **Machine Learning**: Modelo KNN (K-Nearest Neighbors) com scikit-learn
+- **Microserviços**: Arquitetura distribuída com serviços independentes
+- **Cache Inteligente**: Redis para otimização de consultas
+- **Persistência**: MongoDB para armazenamento de predições
+- **Containerização**: Docker Compose para orquestração
+
+*Tecnologias: Python, Flask, MongoDB, Redis, Docker, scikit-learn*
+
+### [🔧 IDP-AOC-2025.2](./4_semestre/IDP-AOC-2025.2/)
+Arquitetura e Organização de Computadores - Desenvolvimento em RISC-V Assembly:
+- **Assembly RISC-V**: Programação em baixo nível
+- **Docker**: Ambiente de desenvolvimento containerizado
+- **Scripts de Automação**: Ferramentas para criação e execução de listas
+- **Makefile**: Sistema de build automatizado
+
+*Tecnologias: RISC-V Assembly, Docker, Make, QEMU*
+
+### [🌐 IDP-Redes-2025.2](./4_semestre/IDP-Redes-2025.2/)
+Redes de Computadores - Laboratórios práticos de protocolos e comunicação:
+- **Sockets**: Programação de sockets UDP e TCP em Python e Go
+- **Protocolos**: ICMP, HTTP, análise de pacotes
+- **Docker**: Containerização de aplicações web (Apache, MySQL)
+- **Análise de Tráfego**: Traceroute, análise de pacotes, ping flood
+
+*Tecnologias: Python, Go, Docker, LaTeX*
+
+### [🤖 IDP-IA-2025.2](./4_semestre/IDP-IA-2025.2/)
+Inteligência Artificial - Análise de dados e Machine Learning:
+- **Análise de Dados**: Exploração e visualização de datasets
+- **Redes Neurais**: Implementação e treinamento de modelos
+- **Classificação**: Modelos de ML para predição (diabetes, Titanic)
+- **Visualizações**: Gráficos e heatmaps de análise multivariada
+
+*Tecnologias: Python, scikit-learn, pandas, matplotlib, Jupyter Notebooks*
+
+### [⚙️ IDP-EQ-TI-2025.2](./4_semestre/IDP-EQ-TI-2025.2/)
+Equipamentos de TI - Projetos práticos com hardware e robótica:
+- **LEDs**: Programação de portas lógicas (AND, OR, NOT)
+- **Robótica**: Projetos com componentes eletrônicos
+- **Interface Web**: Aplicações interativas para controle
+
+*Tecnologias: Python, HTML, CSS*
+
+### [💻 IDP-C-Workshop](./4_semestre/IDP-C-Workshop/)
+Workshop de Programação em C - Exercícios e desafios práticos:
+- **Fundamentos**: Condicionais, loops, funções
+- **Desafios**: Problemas práticos de lógica e algoritmos
+- **Estruturas**: Manipulação de dados e algoritmos básicos
+
+*Tecnologias: C, C++*
+
+### [📚 Monitoria-TPAA](./4_semestre/Monitoria-TPAA/)
+Monitoria de Técnicas de Programação e Algoritmos Avançados:
+- **Conteúdos**: Notação assintótica, estruturas de dados, algoritmos avançados
+- **Scripts de Automação**: Sistema completo para gerenciar listas de exercícios
+- **Questões Antigas**: Banco de questões de provas anteriores
+- **Slides**: Material didático organizado por período
+
+*Tecnologias: C++, Shell Script, Git*
+
+---
+
 ## 🛠️ Tecnologias Utilizadas
 
-- **Linguagens**: C/C++, Python, Typescript, Java, JavaScript, HTML, CSS
-- **Bancos de Dados**: MongoDB, MySQL, PostgreSQL
+- **Linguagens**: C/C++, Python, TypeScript, Java, JavaScript, HTML, CSS, Go, RISC-V Assembly
+- **Bancos de Dados**: MongoDB, MySQL, PostgreSQL, Redis
 - **Softwares**: VScode, Vim, Postman, Insomnia
-- **Frameworks e Ferramentas**: Docker, Fastify, Flask, React, TailwindCss, RabbitMQ
+- **Frameworks e Ferramentas**: Docker, Fastify, Flask, React, TailwindCss, RabbitMQ, scikit-learn, pandas
+- **DevOps**: Docker Compose, QEMU, Make
 - **Versionamento**: Git, Github, Gitlab
-- **Metodologias**: Programação Estruturada, POO, Algoritmos e Estruturas de Dados
+- **Metodologias**: Programação Estruturada, POO, Algoritmos e Estruturas de Dados, Microserviços, Machine Learning
 
 ---
 
