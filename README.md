@@ -4,20 +4,6 @@ Este é um monorepo que contém todos os projetos e atividades desenvolvidos dur
 
 ---
 
-## ⭐ Repositórios em Destaque
-
-### [🧩 IDP-EDA-2024.2](./2_semestre/IDP-EDA-2024.2/)
-Implementações completas de estruturas de dados fundamentais em C, incluindo listas, filas, pilhas, árvores e grafos.
-
-### [🧠 IDP-TPAA-2025.1](./3_semestre/IDP-TPAA-Questões)
-(Apenas os pdfs das questões)
-Estudo aprofundado de algoritmos e técnicas de programação, com scripts automatizados para desenvolvimento e avaliação.
-
-### [🗄️ IDP-BD-2025.1](./3_semestre/IDP-BD-2025.1/)
-Sistema de mensageria da rede social IDP-Connections com arquitetura moderna usando Docker, MongoDB e RabbitMQ.
-
----
-
 ## 📚 1º Semestre
 
 ### [🐍 IDP-Algoritmos-2024.1](./1_semestre/IDP-Algoritmos-2024.1/)
